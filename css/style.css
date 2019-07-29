@@ -229,7 +229,7 @@ button#sidebarCollapse.btn.btn-info.navbar-btn {
     margin-top: 22px;
     display: block;
     visibility: visible;
-    margin-left: 25%;
+    margin-left: 25px;
 }
 
 .m {
@@ -704,4 +704,14 @@ button#sidebarCollapse.btn.btn-info.navbar-btn {
     color: #fff!important;
     overflow: hidden;
     clear: both;
+}
+/*Maps*/
+.stylebutton button{
+    background-color: #D9EDF7 !important;
+    padding: 5px 22px;
+    border: none;
+    border-radius: 5px;
+}
+.righttt{
+    margin-left: 10px;
 }

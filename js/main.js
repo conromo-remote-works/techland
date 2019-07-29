@@ -4,6 +4,7 @@ $(document).ready(function () {
     });
     
     $('.dropdown-toggle').dropdown();
+    
 });
 Morris.Area({
     element: 'graph',
