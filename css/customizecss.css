@@ -90,11 +90,12 @@
         background: none;
         border-bottom: 1px solid #fff;
     }
-        #sidebar {
-            min-width: 80px;
-            max-width: 80px;
-             text-align: left;
-            margin-left: -80px !important;
+    #sidebar {
+        min-width: 80px;
+        max-width: 80px;
+        background: #283848;
+        color: #fff;
+        transition: all 0.3s;
     }
     .headerleft form {
         padding: 8px;

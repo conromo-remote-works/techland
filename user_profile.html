@@ -16,20 +16,15 @@
             <!-- Sidebar Holder -->
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>CR Company</h3>
-                    <strong>CR</strong>
+                    <h4>Techland Company</h4>
+                    <strong>TC</strong>
                 </div>
                 <ul class="list-unstyled components">
                     <li class="active"> <a href="admin_dashboard.html">
                         <i class="fa fa-th-large" aria-hidden="true"></i>
                         <span class="m">Dashboard</span>
                         </a></li>
-                    <li>
-                        <a href="index.html">
-                            <i class="fa fa-home" aria-hidden="true"></i>
-                            <span class="m">Home</span>
-                        </a>
-                    </li>
+                   
                     <li class="">
                         <a href="user_profile.html">
                             <i class="fa fa-user" aria-hidden="true"></i>
@@ -118,28 +113,36 @@
                     </div>
                 </nav>
 <!--                User profile-->
-                <div class="container-fluid">
-                    <h1>Edit Profile</h1>
+                <div class="container-fluid MARGINTOP">
+                    <h1>Personal Information:</h1>
                     <hr>
                     <div class="row">
                         <!-- left column -->
-                        <div class="col-md-3">
-                            <div class="text-center">
+                        <div class="col-md-3 imageback">
+                            <div class="imageinfo">
                                 <img src="image/3.jpg" class="avatar" alt="Iamage">
-                                <h6>Upload a different photo...</h6>
+                                <div class="namegroup">
+                                    <label for="" class="do-profile-title">Web Design and Developer</label>
+                                    <div class="do-user-details">
+                                        <label for="" class="do-user-name do-label">Max Chowdhury</label>
+                                        <label for="" class="do-user-phone do-label">+8801720000</label>
+                                        <label for="" class="do-user-email do-label">max@gmail.com</label>
+                                        
+                                    </div>
+                                </div>
 
-                                <input type="file" class="form-control">
                             </div>
                         </div>
 
+
                         <!-- edit form column -->
-                        <div class="col-md-9 personal-info">
-                            <div class="alert alert-info alert-dismissable">
+                        <div class="col-md-8 personal-info ">
+                            <!-- <div class="alert alert-info alert-dismissable">
                                 <a class="panel-close close" data-dismiss="alert">×</a> 
                                 <i class="fa fa-coffee"></i>
                                 This is an <strong>.alert</strong>. Use this to show important messages to the user.
-                            </div>
-                            <h3>Personal info</h3>
+                            </div> -->
+                            <!-- <h3 class="n text-center">Personal information</h3> -->
 
                             <form class="form-horizontal" role="form">
                                 <div class="form-group">
@@ -184,24 +187,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <label class="col-md-3 control-label">Username:</label>
-                                    <div class="col-md-8">
-                                        <input class="form-control" type="text" value="" placeholder="User Name">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-3 control-label">Password:</label>
-                                    <div class="col-md-8">
-                                        <input class="form-control" type="password" value="" placeholder="Pasword">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-3 control-label">Confirm password:</label>
-                                    <div class="col-md-8">
-                                        <input class="form-control" type="password" value="" placeholder="Confirm Password">
-                                    </div>
-                                </div>
+                                
+                                
                                 <div class="form-group formsstyle">
                                     <label class="col-md-3 control-label"></label>
                                     <div class="col-md-8">

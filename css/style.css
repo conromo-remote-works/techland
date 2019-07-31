@@ -151,7 +151,7 @@ button#sidebarCollapse.btn.btn-info.navbar-btn {
 }
 
 #sidebar.active .sidebar-header {
-    padding: 12px;
+    padding: 20px;
     background: none;
     border-bottom: 1px solid #fff;
 }
@@ -209,11 +209,11 @@ button#sidebarCollapse.btn.btn-info.navbar-btn {
 
 }
 
-#sidebar .sidebar-header h3 {
+#sidebar .sidebar-header h4 {
     display: none;
 }
 
-#sidebar.active .sidebar-header h3 {
+#sidebar.active .sidebar-header h4{
     display: block;
 }
 
@@ -714,4 +714,78 @@ button#sidebarCollapse.btn.btn-info.navbar-btn {
 }
 .righttt{
     margin-left: 10px;
+}
+.n{
+    padding-bottom: 10px;
+}
+/* .namegroup{
+    float: left;
+    text-align:center;
+} */
+.namegroup label{
+    /* margin-bottom: 10px; */
+}
+.imageback{
+    background-color: #fff !important;
+    border: 1px solid #c0c0c0;
+    padding: 55px 0px;
+    color:black;
+    margin-top: 21px;
+    margin-left: 21px;
+    
+}
+.imageback img{
+    border-radius: 75px;
+    margin: 20px 0px;
+}
+.personal-info {
+    margin-top: 21px;
+}
+.do-label {
+    display: block;   
+}
+.MARGINTOP{
+    margin-bottom: 15px;
+}
+.avatar {
+    display: block;
+}
+.imageinfo {
+    padding-left: 27%;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+/* calender */
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+}
+.h3 {
+    font-size: 30px;
+    background-color: #E8E8E8;
+    padding: 22px;
+    max-width: 100%;
+}
+.stylecolor button{
+    margin-top: 15px;
+    float: right;
+    margin-left: 10px;
+    background-color: #E8E8E8;
+    border: none;
+    padding: 10px 20px;
+}
+.stylecolor button:hover{
+    background-color: #D9EDF7;
+    cursor: pointer;
+}
+.formright{
+    float: left;
+}
+.fulldiv {
+    width: 100%;
+    margin-bottom: 50px;
 }
